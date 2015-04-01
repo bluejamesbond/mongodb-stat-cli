@@ -4,7 +4,9 @@
   "description": "Mongodb Statistic in Terminal",
   "main": "index.js",
   "dependencies": {
-    "mongodb": "^2.0"
+    "cli-color": "^0.3.3",
+    "mongodb": "^2.0",
+    "optimist": "^0.6"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -22,6 +24,9 @@
     "cli",
     "terminal"
   ],
+  "bin": {
+    "mdb-stat": "./bin/mdb-stat"
+  },
   "bugs": {
     "url": "https://github.com/maxvipon/mongo-stat-cli/issues"
   },
