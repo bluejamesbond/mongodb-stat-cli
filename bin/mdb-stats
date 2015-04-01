@@ -1,0 +1,15 @@
+#!/usr/bin/env node
+var cli = require('../lib/stat.js');
+
+var args = require('yargs')
+
+    .usage('Usage: $0 [options]')
+    .example('$0 -d blog -c posts')
+    .option('d', { alias: 'database',   demand: true, describe: 'Database Name',   type: 'string' })
+    .option('c', { alias: 'collection', demand: true, describe: 'Collection Name', type: 'string' })
+    .option('h', { alias: 'host', describe: 'Server host', default: 'localhost', type: 'string' })
+    .option('p', { alias: 'port', describe: 'Server port', default: 27017, type: 'number' })
+    .option('r', { alias: 'refresh', describe: 'Refresh timeout in seconds', default: 5, type: 'number' })
+    .parse(process.argv);
+
+cli(args);

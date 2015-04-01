@@ -6,7 +6,7 @@
   "dependencies": {
     "cli-color": "^0.3.3",
     "mongodb": "^2.0",
-    "optimist": "^0.6"
+    "yargs": "^3.6"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -25,7 +25,7 @@
     "terminal"
   ],
   "bin": {
-    "mdb-stat": "./bin/mdb-stat"
+    "mdb-stats": "./bin/mdb-stats"
   },
   "bugs": {
     "url": "https://github.com/maxvipon/mongo-stat-cli/issues"
