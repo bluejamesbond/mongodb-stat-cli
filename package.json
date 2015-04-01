@@ -1,7 +1,7 @@
 {
   "name": "mongodb-stat-cli",
   "version": "0.0.2",
-  "description": "Mongodb Statistic in Terminal",
+  "description": "Simple MongoDB Statistics in Terminal",
   "main": "index.js",
   "dependencies": {
     "cli-color": "^0.3.3",
@@ -16,7 +16,7 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/maxvipon/mongo-stat-cli"
+    "url": "https://github.com/maxvipon/mongodb-stat-cli"
   },
   "keywords": [
     "mongodb",
@@ -25,10 +25,10 @@
     "terminal"
   ],
   "bin": {
-    "mdb-stats": "./bin/mdb-stats"
+    "mongodb-stat": "./bin/mongodb-stat"
   },
   "bugs": {
-    "url": "https://github.com/maxvipon/mongo-stat-cli/issues"
+    "url": "https://github.com/maxvipon/mongodb-stat-cli/issues"
   },
-  "homepage": "https://github.com/maxvipon/mongo-stat-cli"
+  "homepage": "https://github.com/maxvipon/mongodb-stat-cli"
 }
