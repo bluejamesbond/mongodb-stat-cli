@@ -1,0 +1,5 @@
+.DS_*
+.idea
+.log
+sftp-config.json
+node_modules
