@@ -10,6 +10,7 @@ var args = require('yargs')
     .option('h', { alias: 'host', describe: 'Server host', default: 'localhost', type: 'string' })
     .option('p', { alias: 'port', describe: 'Server port', default: 27017, type: 'number' })
     .option('r', { alias: 'refresh', describe: 'Refresh timeout in seconds', default: 5, type: 'number' })
+    .option('s', { alias: 'size', describe: 'Sizes of the columns', default: [16, 14], type: 'array' }).nargs('s', 2)
     .parse(process.argv);
 
 cli(args);
