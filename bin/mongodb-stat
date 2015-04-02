@@ -3,8 +3,8 @@ var cli = require('../lib/stat.js');
 
 var args = require('yargs')
 
-    .usage('Usage: $0 [options]')
-    .example('$0 -d blog -c posts')
+    .usage('Usage: mongodb-stat [options]')
+    .example('mongodb-stat -d blog -c posts')
     .option('d', { alias: 'database',   demand: true, describe: 'Database Name',   type: 'string' })
     .option('c', { alias: 'collection', demand: true, describe: 'Collection Name', type: 'string' })
     .option('h', { alias: 'host', describe: 'Server host', default: 'localhost', type: 'string' })
