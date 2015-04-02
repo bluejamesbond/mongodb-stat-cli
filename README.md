@@ -9,6 +9,8 @@ npm install mongodb-stat-cli -g
 mongodb-stat --help
 ```
 
+![screenshot](screenshot.png)
+
 ## License
 
 MIT
