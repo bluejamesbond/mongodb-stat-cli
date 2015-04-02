@@ -1,0 +1,5 @@
+.drone.yml
+.editorconfig
+.jshintrc
+benchmark
+test

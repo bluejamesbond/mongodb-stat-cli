@@ -1,0 +1,10 @@
+{
+    "preset": "yandex",
+    "plugins": [
+        "jscs-jsdoc"
+    ],
+    "excludeFiles": [
+        ".git/**",
+        "**/node_modules/**"
+    ]
+}

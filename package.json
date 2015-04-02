@@ -9,11 +9,20 @@
     "yargs": "^3.6"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "precommit": "npm run lint",
+    "jscs": "jscs --reporter node_modules/jscs-stylish/jscs-stylish.js .",
+    "jshint": "jshint --reporter node_modules/jshint-stylish/stylish.js .",
+    "lint": "npm run jshint && npm run jscs"
   },
   "author": "Maxim Ponomarev <maxvipon@gmail.com>",
   "license": "MIT",
-  "devDependencies": {},
+  "devDependencies": {
+    "jscs": "^1.12.0",
+    "jscs-jsdoc": "^0.4.5",
+    "jscs-stylish": "^0.3.1",
+    "jshint": "^2.6.3",
+    "jshint-stylish": "^1.0.1"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/maxvipon/mongodb-stat-cli"
