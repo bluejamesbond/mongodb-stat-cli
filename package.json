@@ -1,6 +1,6 @@
 {
   "name": "mongodb-stat-cli",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "Simple MongoDB Statistics in Terminal",
   "main": "index.js",
   "dependencies": {
